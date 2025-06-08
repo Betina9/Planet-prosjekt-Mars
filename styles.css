@@ -1,11 +1,14 @@
 body {
   background-color: #313131;
+  margin: 0;
+  padding: 0;
 }
 .site-header {
   background-color: #a0522d;
   color: #f5f5f5;
   position: relative;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   height: 100px;
 }
@@ -32,4 +35,26 @@ body {
 h1 {
   font-size: 60px;
   margin: 0;
+}
+.hamburger {
+  font-size: 2rem;
+  cursor: pointer;
+  display: flex;
+  margin-left: auto;
+}
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section1 {
+  background-image: url("./Images/3-gateway-to-mars-sign-spacex-starbase.jpg");
+}
+.section2 {
+  background-image: url("./Images/mars.jpg");
+}
+.section3 {
+  background-image: url("./Images/mars-base.jpg");
 }
